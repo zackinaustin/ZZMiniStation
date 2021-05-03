@@ -21,6 +21,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 I use a Promise to mimic the async call
   
 ## What to do next
+### Tag Suggestion
+The Suggestion is not filtered by the selected tags yet. That's the next very step I would like to do.
+
 ### React-router
 I thought about the react-router to deliver better single-page app experience. Due to the time limit, I decide not to implement it
 
