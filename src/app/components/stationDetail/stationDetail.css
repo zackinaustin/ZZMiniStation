@@ -1,0 +1,19 @@
+.station-detail-container{
+    height: inherit;
+    flex: 1 1 auto;
+    align-self: stretch;
+    background-color: #5990e3;
+}
+
+.station-detail-container .station-detail-description{
+    font-size: 15px
+}
+
+.station-detail-container .station-detail-image{
+    padding: 50px;
+}
+
+.station-detail-container .station-detail-image img{
+    height: 300px;
+    width: 300px;
+}

@@ -1,6 +1,39 @@
-# Getting Started with Create React App
+# ZZ's Mini Radio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I use the `npm create-react-app` to create this app, then develop it to the requirements
+
+IDE: Webstorm
+
+Stack: React 17 + JS
+
+Total time: 3 Hrs
+
+Most time spent to find the appropriate tag input, and tune it to working
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+##Some FYI
+
+- I tried send HTTP request to fetch the JSON from S3, however, the CORS prevented me. So I directly copy it into the repo.
+I use a Promise to mimic the async call
+  
+## What to do next
+### React-router
+I thought about the react-router to deliver better single-page app experience. Due to the time limit, I decide not to implement it
+
+I would be happy to talk more about it in the onsite interview, if I make it that far :)
+
+Same apples to *redux*
+
+### Better styling
+The css is minimal here. We can take advantage of less or scss if we continue on this project.
+
+
+### Unit Test
+Yeah, if I have more time, we can talk more about unit test
 
 ## Available Scripts
 
@@ -39,32 +72,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

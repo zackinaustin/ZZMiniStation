@@ -1,0 +1,22 @@
+.station-list-container {
+    height: inherit;
+    background-color: #4287f5;
+    align-self: stretch;
+    flex: 0 1 300px;
+}
+
+.station-list {
+    list-style-type: none;
+}
+
+.station-list-item {
+    text-align: left;
+}
+
+.station-detail-container {
+    flex: 4;
+}
+
+.station-list-tag-input {
+    padding: 20px;
+}
